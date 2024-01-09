@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script>
+            function f(){
+                var a=document.getElementById("h").value;
+                var b=document.getElementById("b").value;
+              var c=a*b/2;
+          //     document.write(c);
+               document.getElementById("area").innerHTML=c;
+            }
+        </script>
+    </head>
+    <body>
+        height:<input type="text" id="h">
+        base:<input type="text" id="b">
+        area:<input type="button" onclick="f()">
+        <p id="area"></p>
+    </body>
+</html>
